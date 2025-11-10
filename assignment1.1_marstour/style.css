@@ -1,0 +1,68 @@
+/* Basic page styling */
+body {
+  font-family: "Arial", sans-serif;
+  background: #f0f8ff; /* light blue background */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #222;
+}
+
+/* Header styling with red background and white text */
+header {
+  background: #b30000;
+  color: white;
+  padding: 20px 0;
+}
+
+/* Navigation link styling */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* underline on hover */
+}
+
+/* Main content padding */
+main {
+  padding: 30px;
+}
+
+/* Form styling */
+form {
+  background: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray; /* subtle shadow for depth */
+  text-align: left;
+}
+
+/* Label styling */
+label {
+  font-weight: bold;
+}
+
+/* Input and text area styling */
+input, textarea {
+  width: 90%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+/* Submit button and main buttons */
+input[type="submit"], .button {
+  background: #b30000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover, .button:hover {
+  background: #e63900; /* darker red on hover */
+}
